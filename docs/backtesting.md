@@ -406,7 +406,7 @@ It contains some useful key metrics about performance of your strategy on backte
 - `Max open trades`: Setting of `max_open_trades` (or `--max-open-trades`) - or number of pairs in the pairlist (whatever is lower).
 - `Total trades`: Identical to the total trades of the backtest output table.
 - `Starting balance`: Start balance - as given by dry-run-wallet (config or command line).
-- `Final balance`: Final balance - starting balance + absolute profit.
+- `Final balance`: Final balance = starting balance + absolute profit.
 - `Absolute profit`: Profit made in stake currency.
 - `Total profit %`: Total profit. Aligned to the `TOTAL` row's `Tot Profit %` from the first table. Calculated as `(End capital − Starting capital) / Starting capital`.
 - `Trades per day`: Total trades divided by the backtesting duration in days (this will give you information about how many trades to expect from the strategy).
